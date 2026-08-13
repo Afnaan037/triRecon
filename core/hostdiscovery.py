@@ -11,7 +11,6 @@ Only scan targets you own or have explicit authorization to test.
 
 import ipaddress
 import socket
-import time
 from typing import Optional
 
 import requests
