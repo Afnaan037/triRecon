@@ -91,7 +91,7 @@ sudo apt install nmap python3 python3-pip python3-venv -y
 ### 2 — Clone the repository
 
 ```bash
-git clone https://github.com/your-username/triRecon.git
+git clone https://github.com/Afnaan037/triRecon.git
 cd triRecon
 ```
 
