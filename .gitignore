@@ -1,0 +1,35 @@
+# Python / build
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env/
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# TriRecon runtime artefacts
+data/
+*.xml          # nmap temp output files
+*.db           # SQLite history (stored in ~/.trirecon/ by default)
+report*.json
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
