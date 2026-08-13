@@ -7,14 +7,11 @@ Builds a consolidated three-section report from all module results.
 import json
 from datetime import datetime
 from pathlib import Path
-from typing import Optional
 
 from rich import box
-from rich.columns import Columns
 from rich.console import Console
 from rich.panel import Panel
 from rich.table import Table
-from rich.text import Text
 
 console = Console()
 
